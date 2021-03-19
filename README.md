@@ -28,7 +28,7 @@ Inside the root of the app directory
 Check that things work as they should.
 
 Config setup on Heroku
-- run the following to get the evironment variable set up on heroku
+- run the following to get the evironment variables set up on heroku
   - `heroku config:set DB_HOST = YOUR_DB_HOST`
   - `heroku config:set DB_NAME = YOUR_DB_NAME`
   - `heroku config:set DB_HOST = YOUR_DB_HOST`
