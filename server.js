@@ -1,4 +1,5 @@
-const http = require("http")
+const http = require("http");
+require("dotenv").config();
 const { createDonor, getAllDonors } = require("./controllers/donationController");
 
 const server = http.createServer((req, res) => {
